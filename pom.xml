@@ -10,9 +10,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.israiloff</groupId>
+    <groupId>uz.devops</groupId>
     <artifactId>rjvalidation</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <name>rjvalidation</name>
     <description>Non blocking java validation plugin. Compatible with project reactor</description>
 
