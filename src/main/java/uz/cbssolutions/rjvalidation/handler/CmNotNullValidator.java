@@ -1,6 +1,6 @@
-package uz.anorbank.rjvalidation.handler;
+package uz.cbssolutions.rjvalidation.handler;
 
-import uz.anorbank.rjvalidation.constraint.CmNotNull;
+import uz.cbssolutions.rjvalidation.constraint.CmNotNull;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;

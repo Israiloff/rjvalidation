@@ -1,7 +1,7 @@
-package uz.anorbank.rjvalidation.constraint;
+package uz.cbssolutions.rjvalidation.constraint;
 
-import uz.anorbank.rjvalidation.config.ConstraintViolationMsg;
-import uz.anorbank.rjvalidation.handler.CmPatternValidator;
+import uz.cbssolutions.rjvalidation.config.ConstraintViolationMsg;
+import uz.cbssolutions.rjvalidation.handler.CmPatternValidator;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;

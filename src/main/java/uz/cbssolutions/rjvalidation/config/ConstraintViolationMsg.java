@@ -1,4 +1,4 @@
-package uz.anorbank.rjvalidation.config;
+package uz.cbssolutions.rjvalidation.config;
 
 public class ConstraintViolationMsg {
 
