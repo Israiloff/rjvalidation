@@ -5,10 +5,15 @@ import uz.cbssolutions.rjvalidation.handler.CmPatternValidator;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;
-import java.lang.annotation.*;
+import java.lang.annotation.Documented;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
 
 /**
- * The annotated {@link java.lang.String} element must match to the specified regular expression (regex).
+ * The annotated {@link java.lang.String} element must match to the specified regular expression (regex)
+ * or must be null.
  */
 @Documented
 @Constraint(validatedBy = CmPatternValidator.class)

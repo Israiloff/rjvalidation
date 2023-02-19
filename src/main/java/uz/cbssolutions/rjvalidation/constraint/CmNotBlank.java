@@ -5,11 +5,15 @@ import uz.cbssolutions.rjvalidation.handler.CmNotBlankValidator;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;
-import java.lang.annotation.*;
+import java.lang.annotation.Documented;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
 
 /**
  * Not blank {@link java.lang.String} validator. The annotated element must not be null and must contain at least
- * one non-whitespace character
+ * one non-whitespace character.
  */
 @Documented
 @Constraint(validatedBy = CmNotBlankValidator.class)
