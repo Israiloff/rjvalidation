@@ -1,5 +1,8 @@
 package uz.cbssolutions.rjvalidation.config;
 
+/**
+ * Constraint violation messages' store.
+ */
 public class ConstraintViolationMsg {
 
     public static final String NOT_NULL_VIOLATION_MSG = "field must not be null";
