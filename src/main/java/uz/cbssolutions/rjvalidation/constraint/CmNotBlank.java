@@ -1,10 +1,10 @@
 package uz.cbssolutions.rjvalidation.constraint;
 
+import jakarta.validation.Constraint;
+import jakarta.validation.Payload;
 import uz.cbssolutions.rjvalidation.config.ConstraintViolationMsg;
 import uz.cbssolutions.rjvalidation.handler.CmNotBlankValidator;
 
-import javax.validation.Constraint;
-import javax.validation.Payload;
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

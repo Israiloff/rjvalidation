@@ -1,9 +1,8 @@
 package uz.cbssolutions.rjvalidation.handler;
 
+import jakarta.validation.ConstraintValidator;
+import jakarta.validation.ConstraintValidatorContext;
 import uz.cbssolutions.rjvalidation.constraint.CmNotNull;
-
-import javax.validation.ConstraintValidator;
-import javax.validation.ConstraintValidatorContext;
 
 /**
  * Constraint validator for {@link CmNotNull} annotation.

@@ -1,9 +1,9 @@
 package uz.cbssolutions.rjvalidation.handler;
 
+import jakarta.validation.ConstraintValidator;
+import jakarta.validation.ConstraintValidatorContext;
 import uz.cbssolutions.rjvalidation.constraint.CmNotEmpty;
 
-import javax.validation.ConstraintValidator;
-import javax.validation.ConstraintValidatorContext;
 import java.util.Collection;
 
 /**
