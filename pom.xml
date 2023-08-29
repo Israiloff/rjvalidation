@@ -11,9 +11,9 @@
 
     <properties>
         <java.version>17</java.version>
-        <cbs-checkstyle.version>0.2.25</cbs-checkstyle.version>
         <maven-checkstyle-plugin.version>3.2.1</maven-checkstyle-plugin.version>
         <jakarta.validation-api.version>3.0.2</jakarta.validation-api.version>
+        <checkstyle-rules.version>0.0.2</checkstyle-rules.version>
     </properties>
 
     <dependencies>
@@ -54,9 +54,9 @@
                 </executions>
                 <dependencies>
                     <dependency>
-                        <groupId>uz.cbssolutions</groupId>
-                        <artifactId>checkstyle</artifactId>
-                        <version>${cbs-checkstyle.version}</version>
+                        <groupId>com.github.israiloff</groupId>
+                        <artifactId>checkstyle-rules</artifactId>
+                        <version>${checkstyle-rules.version}</version>
                     </dependency>
                 </dependencies>
             </plugin>
