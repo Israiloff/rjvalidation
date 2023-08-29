@@ -1,9 +1,9 @@
-package uz.cbssolutions.rjvalidation.constraint;
+package com.github.israiloff.rjvalidation.constraint;
 
+import com.github.israiloff.rjvalidation.config.ConstraintViolationMsg;
+import com.github.israiloff.rjvalidation.handler.CmNotEmptyValidator;
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
-import uz.cbssolutions.rjvalidation.config.ConstraintViolationMsg;
-import uz.cbssolutions.rjvalidation.handler.CmNotEmptyValidator;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

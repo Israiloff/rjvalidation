@@ -1,8 +1,8 @@
-package uz.cbssolutions.rjvalidation.handler;
+package com.github.israiloff.rjvalidation.handler;
 
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
-import uz.cbssolutions.rjvalidation.constraint.CmSize;
+import com.github.israiloff.rjvalidation.constraint.CmSize;
 
 /**
  * Constraint validator for {@link CmSize} annotation.

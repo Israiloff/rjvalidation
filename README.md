@@ -20,7 +20,7 @@ annotation must not be null and must contain at least one non-whitespace charact
 
 ```java
 
-import uz.cbssolutions.rjvalidation.constraint.CmNotBlank;
+import constraint.com.github.israiloff.rjvalidation.CmNotBlank;
 
 @Data
 @AllArgsConstructor
@@ -42,7 +42,7 @@ with [***this***](https://gitlab.hayotbank.uz/mobile-back/plugins/general/rjvali
 
 ```java
 
-import uz.cbssolutions.rjvalidation.constraint.CmNotEmpty;
+import constraint.com.github.israiloff.rjvalidation.CmNotEmpty;
 
 @AllArgsConstructor
 class Foo {
@@ -62,7 +62,7 @@ annotation must not be null.
 
 ```java
 
-import uz.cbssolutions.rjvalidation.constraint.CmNotNull;
+import constraint.com.github.israiloff.rjvalidation.CmNotNull;
 
 @AllArgsConstructor
 class Foo {
@@ -83,7 +83,7 @@ annotation must match to the specified regular expression (regex) or must be nul
 
 ```java
 
-import uz.cbssolutions.rjvalidation.constraint.CmPattern;
+import constraint.com.github.israiloff.rjvalidation.CmPattern;
 
 @Data
 @AllArgsConstructor
@@ -105,7 +105,7 @@ A [***String***](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html
 
 ```java
 
-import uz.cbssolutions.rjvalidation.constraint.CmSize;
+import constraint.com.github.israiloff.rjvalidation.CmSize;
 
 @Data
 @AllArgsConstructor
@@ -126,11 +126,11 @@ class Foo {
 
 ```java
 
-import uz.cbssolutions.rjvalidation.constraint.CmNotBlank;
-import uz.cbssolutions.rjvalidation.constraint.CmNotEmpty;
-import uz.cbssolutions.rjvalidation.constraint.CmNotNull;
-import uz.cbssolutions.rjvalidation.constraint.CmPattern;
-import uz.cbssolutions.rjvalidation.constraint.CmSize;
+import constraint.com.github.israiloff.rjvalidation.CmNotBlank;
+import constraint.com.github.israiloff.rjvalidation.CmNotEmpty;
+import constraint.com.github.israiloff.rjvalidation.CmNotNull;
+import constraint.com.github.israiloff.rjvalidation.CmPattern;
+import constraint.com.github.israiloff.rjvalidation.CmSize;
 
 @Data
 @AllArgsConstructor
