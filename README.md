@@ -1,26 +1,26 @@
 # Reactive Java Validation plugin.
 
-[***This***](https://gitlab.hayotbank.uz/mobile-back/plugins/general/rjvalidation/-/tree/master/) plugin has been 
+[***This***](https://github.com/Israiloff/rjvalidation) plugin has been 
 created to simplify using [***Java Validation Api***](https://docs.oracle.com/javaee/7/api/javax/validation/package-summary.html)
 in the [***reactive***](https://projectreactor.io/) java world.
 
 ## Annotations
 
 > For those who are interested in ***"Cm"*** prefix in 
-> [***these***](https://gitlab.hayotbank.uz/mobile-back/plugins/general/rjvalidation/-/tree/master/src/main/java/uz/cbssolutions/rjvalidation/constraint) 
+> [***these***](https://github.com/Israiloff/rjvalidationsrc/main/java/uz/cbssolutions/rjvalidation/constraint) 
 > annotations means [***"customized"***](http://acronymsandslang.com/definition/5400387/CM-meaning.html)
 
 > All code samples uses annotations from [***Project Lombok***](https://projectlombok.org/) to simplify code structure.
 
-### [**@CmNotBlank**](https://gitlab.hayotbank.uz/mobile-back/plugins/general/rjvalidation/-/blob/master/src/main/java/uz/cbssolutions/rjvalidation/constraint/CmNotBlank.java)
+### [**@CmNotBlank**](https://github.com/Israiloff/rjvalidation/tree/master/src/main/java/com/github/israiloff/rjvalidation/constraint/CmNotBlank.java)
 
 A [***String***](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html) type element annotated with
-[***this***](https://gitlab.hayotbank.uz/mobile-back/plugins/general/rjvalidation/-/blob/master/src/main/java/uz/cbssolutions/rjvalidation/constraint/CmNotBlank.java) 
+[***this***](https://github.com/Israiloff/rjvalidation/tree/master/src/main/java/com/github/israiloff/rjvalidation/constraint/CmNotBlank.java) 
 annotation must not be null and must contain at least one non-whitespace character.
 
 ```java
 
-import constraint.com.github.israiloff.rjvalidation.CmNotBlank;
+import com.github.israiloff.rjvalidation.CmNotBlank;
 
 @Data
 @AllArgsConstructor
@@ -35,14 +35,14 @@ class Foo {
 } 
 ```
 
-### [**@CmNotEmpty**](https://gitlab.hayotbank.uz/mobile-back/plugins/general/rjvalidation/-/blob/master/src/main/java/uz/cbssolutions/rjvalidation/constraint/CmNotEmpty.java)
+### [**@CmNotEmpty**](https://github.com/Israiloff/rjvalidation/tree/master/src/main/java/com/github/israiloff/rjvalidation/constraint/CmNotEmpty.java)
 
 A [***Collection<E>***](https://docs.oracle.com/javase/7/docs/api/java/util/Collection.html) type element annotated
-with [***this***](https://gitlab.hayotbank.uz/mobile-back/plugins/general/rjvalidation/-/blob/master/src/main/java/uz/cbssolutions/rjvalidation/constraint/CmNotEmpty.java) annotation must not be null nor empty.
+with [***this***](https://github.com/Israiloff/rjvalidation/tree/master/src/main/java/com/github/israiloff/rjvalidation/constraint/CmNotEmpty.java) annotation must not be null nor empty.
 
 ```java
 
-import constraint.com.github.israiloff.rjvalidation.CmNotEmpty;
+import com.github.israiloff.rjvalidation.CmNotEmpty;
 
 @AllArgsConstructor
 class Foo {
@@ -55,14 +55,14 @@ class Foo {
 }
 ```
 
-### [**@CmNotNull**](https://gitlab.hayotbank.uz/mobile-back/plugins/general/rjvalidation/-/blob/master/src/main/java/uz/cbssolutions/rjvalidation/constraint/CmNotNull.java)
+### [**@CmNotNull**](https://github.com/Israiloff/rjvalidation/tree/master/src/main/java/com/github/israiloff/rjvalidation/constraint/CmNotNull.java)
 
-Any element annotated with [***this***](https://gitlab.hayotbank.uz/mobile-back/plugins/general/rjvalidation/-/blob/master/src/main/java/uz/cbssolutions/rjvalidation/constraint/CmNotNull.java) 
+Any element annotated with [***this***](https://github.com/Israiloff/rjvalidation/tree/master/src/main/java/com/github/israiloff/rjvalidation/constraint/CmNotNull.java) 
 annotation must not be null.
 
 ```java
 
-import constraint.com.github.israiloff.rjvalidation.CmNotNull;
+import com.github.israiloff.rjvalidation.CmNotNull;
 
 @AllArgsConstructor
 class Foo {
@@ -75,15 +75,15 @@ class Foo {
 }
 ```
 
-### [**@CmPattern**](https://gitlab.hayotbank.uz/mobile-back/plugins/general/rjvalidation/-/blob/master/src/main/java/uz/cbssolutions/rjvalidation/constraint/CmPattern.java)
+### [**@CmPattern**](https://github.com/Israiloff/rjvalidation/tree/master/src/main/java/com/github/israiloff/rjvalidation/constraint/CmPattern.java)
 
 A [***String***](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html) type element annotated with
-[***this***](https://gitlab.hayotbank.uz/mobile-back/plugins/general/rjvalidation/-/blob/master/src/main/java/uz/cbssolutions/rjvalidation/constraint/CmPattern.java) 
+[***this***](https://github.com/Israiloff/rjvalidation/tree/master/src/main/java/com/github/israiloff/rjvalidation/constraint/CmPattern.java) 
 annotation must match to the specified regular expression (regex) or must be null.
 
 ```java
 
-import constraint.com.github.israiloff.rjvalidation.CmPattern;
+import com.github.israiloff.rjvalidation.CmPattern;
 
 @Data
 @AllArgsConstructor
@@ -98,14 +98,14 @@ class Foo {
 } 
 ```
 
-### [**@CmSize**](https://gitlab.hayotbank.uz/mobile-back/plugins/general/rjvalidation/-/blob/master/src/main/java/uz/cbssolutions/rjvalidation/constraint/CmSize.java)
+### [**@CmSize**](https://github.com/Israiloff/rjvalidation/tree/master/src/main/java/com/github/israiloff/rjvalidation/constraint/CmSize.java)
 
 A [***String***](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html) type element size annotated with
-[***this***](https://gitlab.hayotbank.uz/mobile-back/plugins/general/rjvalidation/-/blob/master/src/main/java/uz/cbssolutions/rjvalidation/constraint/CmSize.java) annotation must be between the specified boundaries (included).
+[***this***](https://github.com/Israiloff/rjvalidation/tree/master/src/main/java/com/github/israiloff/rjvalidation/constraint/CmSize.java) annotation must be between the specified boundaries (included).
 
 ```java
 
-import constraint.com.github.israiloff.rjvalidation.CmSize;
+import com.github.israiloff.rjvalidation.CmSize;
 
 @Data
 @AllArgsConstructor
@@ -126,11 +126,11 @@ class Foo {
 
 ```java
 
-import constraint.com.github.israiloff.rjvalidation.CmNotBlank;
-import constraint.com.github.israiloff.rjvalidation.CmNotEmpty;
-import constraint.com.github.israiloff.rjvalidation.CmNotNull;
-import constraint.com.github.israiloff.rjvalidation.CmPattern;
-import constraint.com.github.israiloff.rjvalidation.CmSize;
+import com.github.israiloff.rjvalidation.CmNotBlank;
+import com.github.israiloff.rjvalidation.CmNotEmpty;
+import com.github.israiloff.rjvalidation.CmNotNull;
+import com.github.israiloff.rjvalidation.CmPattern;
+import com.github.israiloff.rjvalidation.CmSize;
 
 @Data
 @AllArgsConstructor
