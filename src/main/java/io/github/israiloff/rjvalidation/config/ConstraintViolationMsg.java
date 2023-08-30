@@ -1,4 +1,4 @@
-package com.github.israiloff.rjvalidation.config;
+package io.github.israiloff.rjvalidation.config;
 
 /**
  * Constraint violation messages' store.

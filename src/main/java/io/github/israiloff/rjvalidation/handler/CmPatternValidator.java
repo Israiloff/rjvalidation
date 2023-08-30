@@ -1,8 +1,8 @@
-package com.github.israiloff.rjvalidation.handler;
+package io.github.israiloff.rjvalidation.handler;
 
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
-import com.github.israiloff.rjvalidation.constraint.CmPattern;
+import io.github.israiloff.rjvalidation.constraint.CmPattern;
 
 /**
  * Constraint validator for {@link CmPattern} annotation.

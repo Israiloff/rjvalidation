@@ -1,7 +1,7 @@
-package com.github.israiloff.rjvalidation.constraint;
+package io.github.israiloff.rjvalidation.constraint;
 
-import com.github.israiloff.rjvalidation.config.ConstraintViolationMsg;
-import com.github.israiloff.rjvalidation.handler.CmNotNullValidator;
+import io.github.israiloff.rjvalidation.config.ConstraintViolationMsg;
+import io.github.israiloff.rjvalidation.handler.CmNotNullValidator;
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
 

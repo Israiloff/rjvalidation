@@ -1,7 +1,7 @@
-package com.github.israiloff.rjvalidation.constraint;
+package io.github.israiloff.rjvalidation.constraint;
 
-import com.github.israiloff.rjvalidation.config.ConstraintViolationMsg;
-import com.github.israiloff.rjvalidation.handler.CmSizeValidator;
+import io.github.israiloff.rjvalidation.config.ConstraintViolationMsg;
+import io.github.israiloff.rjvalidation.handler.CmNotBlankValidator;
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
 
@@ -12,34 +12,21 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * The annotated {@link java.lang.String} element size must be between the specified boundaries (included).
+ * Not blank {@link java.lang.String} validator. The annotated element must not be null and must contain at least
+ * one non-whitespace character.
  */
 @Documented
-@Constraint(validatedBy = CmSizeValidator.class)
+@Constraint(validatedBy = CmNotBlankValidator.class)
 @Target({ElementType.METHOD, ElementType.FIELD, ElementType.PARAMETER})
 @Retention(RetentionPolicy.RUNTIME)
-public @interface CmSize {
-
-    /**
-     * Defines the minimum length of element.
-     *
-     * @return Minimum length value.
-     */
-    int min() default 0;
-
-    /**
-     * Defines the maximum length of element.
-     *
-     * @return Maximum length value.
-     */
-    int max() default 2147483647;
+public @interface CmNotBlank {
 
     /**
      * Defines message for constraint violation.
      *
      * @return Constraint violation message.
      */
-    String message() default ConstraintViolationMsg.SIZE_VIOLATION_MSG;
+    String message() default ConstraintViolationMsg.NOT_BLANK_VIOLATION_MSG;
 
     /**
      * Defines the type groups.
