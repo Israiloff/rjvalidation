@@ -1,3 +1,5 @@
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.israiloff/rjvalidation/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.israiloff/rjvalidation)
+
 # Reactive Java Validation plugin.
 
 [***This***](https://github.com/Israiloff/rjvalidation) plugin has been 
