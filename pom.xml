@@ -14,6 +14,7 @@
         <maven-checkstyle-plugin.version>3.2.1</maven-checkstyle-plugin.version>
         <jakarta.validation-api.version>3.0.2</jakarta.validation-api.version>
         <checkstyle-rules.version>0.0.2</checkstyle-rules.version>
+        <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
     </properties>
 
     <dependencies>
@@ -29,6 +30,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven-compiler-plugin.version}</version>
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
