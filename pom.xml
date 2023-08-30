@@ -5,7 +5,7 @@
 
     <groupId>io.github.israiloff</groupId>
     <artifactId>rjvalidation</artifactId>
-    <version>2.0.0</version>
+    <version>1.0.0</version>
     <name>${project.groupId}:${project.artifactId}</name>
     <url>https://github.com/israiloff/rjvalidation</url>
     <description>Non blocking java validation plugin. Compatible with project reactor</description>
